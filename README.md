@@ -1,21 +1,19 @@
-ReadMe for Twitter Related Search Scraper
------------------------------------------
+# Twitter Related Search Scraper
 
 To use this from the command line, navigate to the folder of
-twitter_rss.py and type:
+`twitter_rss.py` and type:
 
-python twitter_rss.py <search term> <depth> <output variables>
+`python twitter_rss.py <search term> <depth> <output variables>`
 
-<search term> : term to start searching twitter for (string)
-<depth> : depth to continue the search to (integer)
-<output variables> : "gephi" for gephi csv output
+- `<search term>` : term to start searching twitter for (string)
+- `<depth>` : depth to continue the search to (integer)
+- `<output variables>` : "gephi" for gephi csv output
                      "output" for result csv output
                      "output results" for result csv output without queries
 
 
 
-Inline documentation:
----------------------
+## Inline documentation:
 
 """Twitter Related Search Scraper
 
